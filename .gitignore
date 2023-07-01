@@ -1,0 +1,32 @@
+# Ignore project-specific build/output directories
+/dist/
+/packages/*/dist/
+/packages/*/node_modules/
+
+# Ignore logs
+/logs/
+/packages/*/logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore test coverage
+/coverage/
+/packages/*/coverage/
+/.nyc_output/
+
+# Ignore IDE-specific files and folders
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
